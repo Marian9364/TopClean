@@ -7,12 +7,11 @@
 
 /* Style the links inside the navigation bar */
 .buttons {
-  margin-top:90px;
   font-size: 30px;
   color: rgba(0, 0, 0, 0.733);
   display:inline-block;
   text-align: center;
-  padding: 5px 30px;
+  padding: 5px 15px;
 }
 
 #badge {
