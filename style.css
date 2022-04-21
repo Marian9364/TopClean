@@ -7,13 +7,16 @@
 
 /* Style the links inside the navigation bar */
 .buttons {
+  font-family: sans-serif;
   font-size: 30px;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.733);
+  font-weight: bold;
+  -webkit-text-stroke: 1px black;
+  color: rgba(255, 255, 255, 0.733);
   display:inline-block;
   text-align: center;
   padding: 5px 15px;
   text-decoration: none;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
 
 #badge {
