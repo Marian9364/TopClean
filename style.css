@@ -13,6 +13,7 @@
   display:inline-block;
   text-align: center;
   padding: 5px 15px;
+  text-decoration: none;
 }
 
 #badge {
@@ -46,6 +47,7 @@
   padding: 13px 30px;
   font-size: 30px;
   display: inline-block;
+  text-decoration: none;
 }
 
 /* Change the color of links on hover */
