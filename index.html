@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="HandheldFriendly" content="true">
     <link rel="stylesheet" href="style.css">
-    <script src="/src/app.js" type="module"></script>
+    <script src="app.js" type="module"></script>
     <title>TopClean</title>
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
@@ -21,7 +21,7 @@
 <body>
     <nav class="topnav">
         <img id="badge" alt="Qries" src="img/favicon/android-chrome-192x192.png"width="70" height="70">
-        <a class="buttons" href="#services">Services</a>
+        <a class="buttons"  id="servicesBtn" href="#services">Services</a>
         <a class="buttons" href="#contact">Kontakt</a>
         <a class="buttons" href="#about">Über uns</a>
     <nav class="mobile-topnav">
@@ -37,10 +37,28 @@
     </nav>
     <main id="main">
         <div id="main-div">
-            <img id="element-pic" src="img/topclean 1980x1080 done background.jpg" alt="TopClean picture">
+            <img class="element-pic" src="img/topclean 1980x1080 done background.jpg" alt="TopClean picture">
+        </div>
+        <div id="services-page">
+            <img class="element-pic" id="services-img" src="img/topclean 1980x1080 done background.jpg" alt="TopClean picture">
+            <div class="services-text">
+                <h1>Services</h1><br>
+                Grundreinigung <br>
+                Bodenreinigung <br>
+                Glasreinigung <br>
+                Fensterreinigung <br>
+                Büroreinigung <br>
+                Baureinigung <br>
+                Endreinigung <br>
+                Treppenreinigung <br>
+                Sonderreinigung <br>
+                Außenreinigung <br>
+                Autopflege <br>
+
+            </div>
         </div>
         <div class="mobile-div">
-            <img id="mobile-pic" src="img/mobile version topclean background photo.jpg" alt="TopClean picture">
+            <img class="mobile-pic" src="img/mobile version topclean background photo.jpg" alt="TopClean picture">
         </div>
 
     </main>
