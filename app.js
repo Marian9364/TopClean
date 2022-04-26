@@ -59,3 +59,11 @@ function onAbout() {
   aboutPage.style.display = "block";
   aboutElementPic.style.opacity = 0.2;
 }
+
+// if (screen.width < 960) {
+//   alert('Less than 960');
+// }
+// else {
+
+//   alert('More than 960');
+// }

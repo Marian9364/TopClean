@@ -10,7 +10,7 @@
 /* Style the links inside the top navigation bar */
 .buttons {
   font-family: sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   -webkit-text-stroke: 1px black;
   color: rgba(255, 255, 255, 0.733);
@@ -57,7 +57,7 @@
   color: #333;
   text-align: center;
   padding: 13px 30px;
-  font-size: 30px;
+  font-size: 25px;
   display: inline-block;
   text-decoration: none;
 }
@@ -81,6 +81,21 @@
 #main {
   /* background-image: url("img/TopClean.JPG");*/
   background-color: #e8f7fa;
+}
+/*bottom text on main page*/
+.bottom-text {
+  position: absolute;
+  bottom: 4px;
+  right: 200px;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 5px rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  border: 12px;
+  border-style: solid;
+  border-color: #9bebe9;
+  padding: 1em;
 }
 
 html,
@@ -107,7 +122,7 @@ body {
   color: rgb(0, 0, 0);
   text-shadow: 2px 2px 5px rgb(255, 255, 255);
   font-family: sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   font-style: italic;
   border: 12px;
