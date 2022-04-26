@@ -1,25 +1,30 @@
+/* --top navigation bar-- */
+
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #e8f7fa;
-    overflow: hidden;
-    float:left
-  }
+  background-color: #e8f7fa;
+  overflow: hidden;
+  float: left;
+}
 
-/* Style the links inside the navigation bar */
+/* Style the links inside the top navigation bar */
 .buttons {
   font-family: sans-serif;
   font-size: 30px;
   font-weight: bold;
   -webkit-text-stroke: 1px black;
   color: rgba(255, 255, 255, 0.733);
-  display:inline-block;
+  display: inline-block;
   text-align: center;
   padding: 5px 15px;
   text-decoration: none;
   text-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
-
-#badge {
+/* Style the link icon inside the top navigation bar */
+#badge:hover {
+  border: 2px solid currentColor;
+  border-radius: 3rem;
+  cursor: pointer;
 }
 
 /* Change the color of links on hover */
@@ -34,16 +39,19 @@
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #9bebe9;
-    color: white;
-  }
+  background-color: #9bebe9;
+  color: white;
+}
 
+/* --bottom navigation bar-- */
+
+/* Style the bottom navigation bar */
 .bottom-nav {
   background-color: #e8f7fa;
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
+/* Style the links inside the bottom navigation bar */
 .bottom-nav a {
   float: left;
   color: #333;
@@ -62,31 +70,35 @@
   border-radius: 3rem;
 }
 
-  /* Add a color to the active/current link */
+/* Add a color to the active/current link */
 .bottom-nav a.active {
-    background-color: #9bebe9;
-    color: white;
-  }
+  background-color: #9bebe9;
+  color: white;
+}
+
+/* --Main/Home Page-- */
 
 #main {
-    background-image: url("img/TopClean.JPG");
-    background-color: #e8f7fa;
+  /* background-image: url("img/TopClean.JPG");*/
+  background-color: #e8f7fa;
 }
 
-html,body{
-  margin:0;
-  height:100%;
+html,
+body {
+  margin: 0;
+  height: 100%;
 }
 .element-pic {
-  width:100%; 
-  height:100%;
-  display:block;
+  width: 100%;
+  height: 100%;
+  display: block;
   object-fit: cover;
 }
 /*----Services page----*/
 #services-page {
   display: none;
 }
+
 .services-text {
   position: absolute;
   top: 60%;
@@ -98,6 +110,10 @@ html,body{
   font-size: 30px;
   font-weight: bold;
   font-style: italic;
+  border: 12px;
+  border-style: solid;
+  border-color: #9bebe9;
+  padding: 1em;
 }
 
 /*----Contacts page----*/
@@ -115,6 +131,10 @@ html,body{
   font-size: 30px;
   font-weight: bold;
   font-style: italic;
+  border: 12px;
+  border-style: solid;
+  border-color: #9bebe9;
+  padding: 1em;
 }
 
 /*----About Us page----*/
@@ -132,13 +152,17 @@ html,body{
   font-size: 30px;
   font-weight: bold;
   font-style: italic;
+  border: 12px;
+  border-style: solid;
+  border-color: #9bebe9;
+  padding: 1em;
 }
 
 /*-------------------------------------MOBILE VERSION----------------------*/
 
 /*Icon badge*/
 #mobile-badge {
-  display:none;
+  display: none;
   float: left;
 }
 
@@ -147,17 +171,16 @@ html,body{
   padding: 3px 10px;
   font-size: 10px;
   color: rgba(0, 0, 0, 0.733);
-  display:none;
+  display: none;
 }
 
 .mobile-topnav {
-  display:none;
+  display: none;
 }
 
 .mobile-div {
-  display:none;
+  display: none;
 }
-
 
 /* bottom navigation footer - mobile*/
 .mobile-bottom-nav a {
@@ -166,5 +189,5 @@ html,body{
   text-align: center;
   padding: 13px 10px;
   font-size: 10px;
-  display:none;
+  display: none;
 }
