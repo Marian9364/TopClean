@@ -33,6 +33,7 @@ function onHome() {
   servicesElementPic.style.opacity = 0.0;
   contactElementPic.style.opacity = 0.0;
   aboutElementPic.style.opacity = 0.0;
+  window.location.href = "#home";
 }
 
 function onService() {
