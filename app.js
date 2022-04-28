@@ -13,7 +13,6 @@ let servicesElementPic = document.getElementById("services-img");
 let contactElementPic = document.getElementById("contact-img");
 let aboutElementPic = document.getElementById("about-img");
 let elementPic = document.querySelector("element-pic");
-
 let badge = document.getElementById("badge");
 
 badge.addEventListener("click", onHome);
@@ -60,10 +59,10 @@ function onAbout() {
   aboutElementPic.style.opacity = 0.2;
 }
 
-// if (screen.width < 960) {
-//   alert('Less than 960');
-// }
-// else {
+if (screen.width < 960) {
+  alert('Less than 960');
+}
+else {
 
-//   alert('More than 960');
-// }
+  alert('More than 960');
+}
