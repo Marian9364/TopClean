@@ -1,5 +1,5 @@
 if (screen.width < 960) {
-  alert("Less than 960");
+  alert("Less than 960 - mobile version");
   //mobile version variables
   let mobileServicesBtnTop = document.querySelector("#mobileServicesBtnTop");
   let mobileServicesBtnFooter = document.querySelector(
@@ -65,7 +65,7 @@ if (screen.width < 960) {
     mobileAboutElementPic.style.opacity = 0.2;
   }
 } else {
-  alert("More than 960");
+  alert("More than 960 - desktop version");
   //desktop-version variables
   let servicesBtnTop = document.querySelector("#servicesBtnTop");
   let servicesBtnFooter = document.querySelector("#servicesBtnFooter");

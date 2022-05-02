@@ -1,3 +1,8 @@
+.desktop-version {
+  display: none;
+}
+
+
 /* --top navigation bar-- */
 
 /* Add a black background color to the top navigation */
@@ -176,16 +181,6 @@ body {
 /*-------------------------------------MOBILE VERSION----------------------*/
 
 
-
-
-
-.mobile-version {
-  display: none;
-}
-
-
-
-
 /* --top navigation bar-- */
 
 /* Add a black background color to the top navigation */
@@ -278,13 +273,13 @@ body {
 .mobile-bottom-text {
   position: absolute;
   bottom: 4px;
-  right: 200px;
+  right: 100px;
   color: rgb(0, 0, 0);
   text-shadow: 2px 2px 5px rgb(255, 255, 255);
   font-family: sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
-  border: 12px;
+  border: 10px;
   border-style: solid;
   border-color: #9bebe9;
   padding: 1em;
@@ -306,9 +301,6 @@ body {
   object-fit: cover;
 }
 /*----Services page---- - mobile */
-#mobile-services-page {
-  display: none;
-}
 
 .mobile-services-text {
   position: absolute;
@@ -328,9 +320,7 @@ body {
 }
 
 /*----Contacts page---- - mobile */
-#mobile-contact-page {
-  display: none;
-}
+
 .mobile-contact-text {
   position: absolute;
   top: 60%;
@@ -349,9 +339,7 @@ body {
 }
 
 /*----About Us page---- - mobile */
-#mobile-about-page {
-  display: none;
-}
+
 .mobile-about-text {
   position: absolute;
   top: 60%;
