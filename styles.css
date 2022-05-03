@@ -202,7 +202,6 @@ body {
   text-align: center;
   padding: 3px 10px;
   text-decoration: none;
-  text-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
 
 
@@ -273,7 +272,7 @@ body {
 /*bottom text on main page - mobile */
 .mobile-bottom-text {
   position: absolute;
-  bottom: 650px;
+  bottom:650px;
   right: 50px;
   color: rgb(0, 0, 0);
   text-shadow: 2px 2px 5px rgb(255, 255, 255);
@@ -316,10 +315,10 @@ body {
   color: rgb(0, 0, 0);
   text-shadow: 2px 2px 5px rgb(255, 255, 255);
   font-family: sans-serif;
-  font-size: 10px;
+  font-size: 6px;
   font-weight: bold;
   font-style: italic;
-  border: 8px;
+  border: 5px;
   border-style: ridge;
   border-color: #9bebe9;
   padding: 1em;
@@ -341,7 +340,7 @@ body {
   font-size: 10px;
   font-weight: bold;
   font-style: italic;
-  border: 8px;
+  border: 6px;
   border-style: ridge;
   border-color: #9bebe9;
   padding: 1em;
@@ -361,13 +360,13 @@ body {
   color: rgb(0, 0, 0);
   text-shadow: 2px 2px 5px rgb(255, 255, 255);
   font-family: sans-serif;
-  font-size: 8px;
+  font-size: 7px;
   font-weight: bold;
   font-style: italic;
   border: 8px;
   border-style: ridge;
   border-color: #9bebe9;
-  padding: 1em;
+  padding: 0.4em;
 }
 
 
