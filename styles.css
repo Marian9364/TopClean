@@ -1,4 +1,4 @@
-.mobile-version {
+.desktop-version {
   display: none;
 }
 
@@ -107,6 +107,7 @@ html,
 body {
   margin: 0;
   height: 100%;
+  /*overflow-y: auto;*/
 }
 .element-pic {
   width: 100%;
@@ -266,20 +267,20 @@ body {
 /* --Main/Home Page--  - mobile  */
 
 #mobile-main {
-  /* background-image: url("img/TopClean.JPG");*/
+  /*background-image: url("img/TopClean.JPG");*/
   background-color: #e8f7fa;
 }
 /*bottom text on main page - mobile */
 .mobile-bottom-text {
   position: absolute;
-  bottom: 4px;
-  right: 100px;
+  bottom: 650px;
+  right: 50px;
   color: rgb(0, 0, 0);
   text-shadow: 2px 2px 5px rgb(255, 255, 255);
   font-family: sans-serif;
-  font-size: 40px;
+  font-size: 10px;
   font-weight: bold;
-  border: 10px;
+  border: 5px;
   border-style: ridge;
   border-color: #9bebe9;
   padding: 1em;
@@ -293,6 +294,7 @@ html,
 body {
   margin: 0;
   height: 100%;
+  /*overflow-y:hidden;*/
 }
 .mobile-element-pic {
   width: 100%;
@@ -302,18 +304,22 @@ body {
 }
 /*----Services page---- - mobile */
 
+#mobile-services-page {
+  display: none;
+}
+
 .mobile-services-text {
   position: absolute;
-  top: 60%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(0, 0, 0);
   text-shadow: 2px 2px 5px rgb(255, 255, 255);
   font-family: sans-serif;
-  font-size: 25px;
+  font-size: 10px;
   font-weight: bold;
   font-style: italic;
-  border: 12px;
+  border: 8px;
   border-style: ridge;
   border-color: #9bebe9;
   padding: 1em;
@@ -321,18 +327,21 @@ body {
 
 /*----Contacts page---- - mobile */
 
+#mobile-contact-page {
+  display: none;
+}
 .mobile-contact-text {
   position: absolute;
-  top: 60%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(0, 0, 0);
   text-shadow: 2px 2px 5px rgb(255, 255, 255);
   font-family: sans-serif;
-  font-size: 30px;
+  font-size: 10px;
   font-weight: bold;
   font-style: italic;
-  border: 12px;
+  border: 8px;
   border-style: ridge;
   border-color: #9bebe9;
   padding: 1em;
@@ -340,18 +349,22 @@ body {
 
 /*----About Us page---- - mobile */
 
+#mobile-about-page {
+  display: none;
+}
+
 .mobile-about-text {
   position: absolute;
-  top: 60%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(0, 0, 0);
   text-shadow: 2px 2px 5px rgb(255, 255, 255);
   font-family: sans-serif;
-  font-size: 30px;
+  font-size: 8px;
   font-weight: bold;
   font-style: italic;
-  border: 12px;
+  border: 8px;
   border-style: ridge;
   border-color: #9bebe9;
   padding: 1em;

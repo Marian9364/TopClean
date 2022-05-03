@@ -12,7 +12,7 @@ if (screen.width < 960) {
   );
   let mobileAboutBtnTop = document.querySelector("#mobileAboutBtnTop");
   let mobileAboutBtnFooter = document.querySelector("#mobileAboutBtnFooter");
-  let mobileHomePage = document.getElementById("mobile-main-div");
+  let mobileHomePage = document.querySelector(".mobile-main-div");
   let mobileServicePage = document.getElementById("mobile-services-page");
   let mobileContactPage = document.getElementById("mobile-contact-page");
   let mobileAboutPage = document.getElementById("mobile-about-page");
