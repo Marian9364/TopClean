@@ -1,69 +1,6 @@
 if (screen.width < 960) {
   alert("Less than 960 - mobile version");
-  //mobile version variables
-  let mobileServicesBtnTop = document.querySelector("#mobileServicesBtnTop");
-  let mobileServicesBtnFooter = document.querySelector(
-    "#mobileServicesBtnFooter"
-  );
-  let mobileHomeBtnFooter = document.querySelector("#mobileHomeBtnFooter");
-  let mobileContactBtnTop = document.querySelector("#mobileContactBtnTop");
-  let mobileContactBtnFooter = document.querySelector(
-    "#mobileContactBtnFooter"
-  );
-  let mobileAboutBtnTop = document.querySelector("#mobileAboutBtnTop");
-  let mobileAboutBtnFooter = document.querySelector("#mobileAboutBtnFooter");
-  let mobileHomePage = document.querySelector(".mobile-main-div");
-  let mobileServicePage = document.getElementById("mobile-services-page");
-  let mobileContactPage = document.getElementById("mobile-contact-page");
-  let mobileAboutPage = document.getElementById("mobile-about-page");
-  let mobileServicesElementPic = document.getElementById("mobile-services-img");
-  let mobileContactElementPic = document.getElementById("mobile-contact-img");
-  let mobileAboutElementPic = document.getElementById("mobile-about-img");
-  let mobileBadge = document.getElementById("mobile-badge");
 
-  mobileBadge.addEventListener("click", onMobileHome);
-  mobileHomeBtnFooter.addEventListener("click", onMobileHome);
-  mobileServicesBtnTop.addEventListener("click", onMobileService);
-  mobileServicesBtnFooter.addEventListener("click", onMobileService);
-  mobileContactBtnTop.addEventListener("click", onMobileContact);
-  mobileContactBtnFooter.addEventListener("click", onMobileContact);
-  mobileAboutBtnTop.addEventListener("click", onMobileAbout);
-  mobileAboutBtnFooter.addEventListener("click", onMobileAbout);
-
-  function onMobileHome() {
-    mobileHomePage.style.display = "block";
-    mobileContactPage.style.display = "none";
-    mobileAboutPage.style.display = "none";
-    mobileServicePage.style.display = "none";
-    mobileServicesElementPic.style.opacity = 0.0;
-    mobileContactElementPic.style.opacity = 0.0;
-    mobileAboutElementPic.style.opacity = 0.0;
-    window.location.href = "#home";
-  }
-
-  function onMobileService() {
-    mobileHomePage.style.display = "none";
-    mobileContactPage.style.display = "none";
-    mobileAboutPage.style.display = "none";
-    mobileServicePage.style.display = "block";
-    mobileServicesElementPic.style.opacity = 0.2;
-  }
-
-  function onMobileContact() {
-    mobileHomePage.style.display = "none";
-    mobileServicePage.style.display = "none";
-    mobileAboutPage.style.display = "none";
-    mobileContactPage.style.display = "block";
-    mobileContactElementPic.style.opacity = 0.2;
-  }
-
-  function onMobileAbout() {
-    mobileHomePage.style.display = "none";
-    mobileServicePage.style.display = "none";
-    mobileContactPage.style.display = "none";
-    mobileAboutPage.style.display = "block";
-    mobileAboutElementPic.style.opacity = 0.2;
-  }
 } else {
   alert("More than 960 - desktop version");
   //desktop-version variables
