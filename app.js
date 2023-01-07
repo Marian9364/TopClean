@@ -1,5 +1,9 @@
+let bottomText = document.querySelector(".bottom-text");
+
 if (screen.width < 960) {
   alert("Less than 960 - mobile version");
+  bottomText.style.display = "none";
+
 
 } else {
   alert("More than 960 - desktop version");
