@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
 
 
 /* --top navigation bar-- */
@@ -88,17 +88,18 @@
 /*bottom text on main page*/
 .bottom-text {
   position: absolute;
-  bottom: 4px;
+  bottom: 150px;
   right: 200px;
   color: rgb(0, 0, 0);
   text-shadow: 2px 2px 5px rgb(255, 255, 255);
   font-family: sans-serif;
-  font-size: 50px;
+  font-size: 19px;
   font-weight: bold;
   border: 12px;
   border-style: ridge;
   border-color: #9bebe9;
   padding: 1em;
+  font-family: 'Explora', cursive;
 }
 
 html,
@@ -125,7 +126,8 @@ body {
   transform: translate(-50%, -50%);
   color: rgb(0, 0, 0);
   text-shadow: 2px 2px 5px rgb(255, 255, 255);
-  font-family: sans-serif;
+  font-family: 'Explora', cursive;
+  /*font-family: sans-serif;*/
   font-size: 25px;
   font-weight: bold;
   font-style: italic;
