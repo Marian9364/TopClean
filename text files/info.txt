@@ -1,2 +1,0 @@
-email: topservice@mail.com
-number: 03213012301230
