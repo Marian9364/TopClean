@@ -7,6 +7,7 @@ body {
 } */
 
 
+
 /* frame for every element for testing purposes */
 /* * { border: 1px solid red; } */
 
@@ -16,13 +17,21 @@ body {
 .topnav {
   background-color: #e8f7fa;
   overflow: hidden;
-  float: left;
+  padding-left: 20px;
+
 }
 
 /* make li next to eachother in the top navigation */
 .topnav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+
+.topnav ul li a{
+  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+  text-decoration: none
 }
 
 /* Style the links inside the top navigation bar */
@@ -30,13 +39,12 @@ body {
   font-family: sans-serif;
   font-size: 25px;
   font-weight: bold;
-  -webkit-text-stroke: 1px black;
-  color: rgba(255, 255, 255, 0.733);
+  color: rgb(255, 255, 255);
   display: inline-block;
-  text-align: center;
   padding: 5px 15px;
-  text-decoration: none;
-  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  /* text-decoration: none;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0); */
+
 }
 /* Style the link icon inside the top navigation bar */
 #badge:hover {
@@ -51,7 +59,6 @@ body {
   color: rgba(255, 255, 255, 0.747);
   border: 2px solid currentColor;
   border-radius: 3rem;
-  text-decoration: underline;
   font-style: italic;
 }
 
@@ -67,17 +74,23 @@ body {
 .bottom-nav {
   background-color: #e8f7fa;
   overflow: hidden;
+
+}
+
+.bottom-nav ul{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
 }
 
 /* Style the links inside the bottom navigation bar */
 .bottom-nav a {
   float: left;
   color: rgba(255, 255, 255, 0.733);
-  text-align: center;
   padding: 13px 30px;
   font-size: 25px;
-  display: inline-block;
   text-decoration: none;
+  text-shadow: 1px 1px 5px rgb(0, 0, 0);
 }
 
 /* Change the color of links on hover */
@@ -102,14 +115,14 @@ body {
 /* --Main/Home Page-- */
 
 #main {
-  background-image: url("img/TopClean.JPG");
+  /* background-image: url("img/TopClean.JPG"); */
   background-color: #e8f7fa;
 }
 /*bottom text on main page*/
 .bottom-text {
   position: absolute;
-  bottom: 250px;
-  right: 200px;
+  top: 460px;
+  left: 0px;
   color: rgb(7, 9, 122);
   text-shadow: 4px 4px 5px rgb(255, 255, 255);
   font-size: 19px;
@@ -134,6 +147,7 @@ body {
   display: none;
 }
 
+
 .services-text {
   position: absolute;
   top: 60%;
@@ -146,7 +160,7 @@ body {
   font-size: 25px;
   font-weight: 400;
   border: 12px;
-  border-style: ridge;
+  border-style: inset;
   border-color: #9bebe9;
   padding: 1em;
 }
@@ -184,12 +198,10 @@ body {
   color: rgb(0, 0, 0);
   text-shadow: 2px 2px 5px rgb(255, 255, 255);
   font-family: sans-serif;
-  font-size: 18px;
+  font-size: 30px;
   font-weight: bold;
   font-style: italic;
-  border: 12px;
-  border-style: ridge;
-  border-color: #9bebe9;
+  border: 12px ridge rgba(255, 255, 255, 0.3);
   padding: 1em;
 }
 
@@ -202,8 +214,8 @@ body {
 
   .bottom-text {
     position: absolute;
-    bottom: 550px;
-    right: 100px;
+    top: 300px;
+    left: 0px;
     color: rgb(7, 9, 122);
     text-shadow: 4px 4px 5px rgb(255, 255, 255);
     font-size: 9px;
@@ -218,7 +230,7 @@ body {
 
   .services-text {
     position: absolute;
-    top: 40%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(0, 0, 0);
@@ -231,7 +243,7 @@ body {
 
   .contact-text {
     position: absolute;
-    top: 30%;
+    top: 26%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(0, 0, 0);
@@ -244,7 +256,7 @@ body {
 
   .about-text {
     position: absolute;
-    top: 30%;
+    top: 26%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(0, 0, 0);
