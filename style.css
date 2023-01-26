@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Explora&family=Permanent+Marker&display=swap');
+@import 'https://use.fontawesome.com/releases/v6.2.1/css/all.css';
+
+:root {
+    --main-bg-color: #e8f7fa;
+  }
+
+html,
+body {
+  max-width: 1000px;
+  background-color: var(--main-bg-color);
+
+}
+
+
+
+/* frame for every element for testing purposes */
+/* * { border: 1px solid red; } */
+
+
+/* desktop version----------------------------------------------------------*/
+
+/* --top navigation bar-- */
+#header, #footer {
+    display: flex;
+    justify-content: center;
+  }
+/* Add a background color to the top navigation */
+.topnav, .bottom-nav {
+  /* background-color: var(--main-bg-color); */
+  max-width: 1110px;
+  overflow: hidden;
+  padding-left: 20px;
+
+}
+
+/* make li next to eachother in the top navigation */
+.topnav ul, .bottom-nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+
+.topnav ul li a{
+  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+  text-decoration: none
+}
+
+/* Style the links inside the top navigation bar */
+.buttons {
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  padding: 5px 15px;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+
+}
+/* Style the link icon inside the top navigation bar */
+#badge:hover {
+  border: 2px solid currentColor;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgba(93, 142, 182, 0.575);
+  color: rgba(255, 255, 255, 0.747);
+  border: 2px solid currentColor;
+  border-radius: 3rem;
+  font-style: italic;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #9bebe9;
+  color: white;
+}
+
+/* --bottom navigation bar-------------- */
+
+/* Style the bottom navigation bar */
+.bottom-nav {
+  /* background-color: #e8f7fa; */
+  overflow: hidden;
+
+}
+
+.bottom-nav ul{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+/* Style the links inside the bottom navigation bar */
+.bottom-nav a {
+  float: left;
+  color: rgba(255, 255, 255, 0.733);
+  padding: 13px 30px;
+  font-size: 25px;
+  text-decoration: none;
+  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+
+/* Change the color of links on hover */
+.bottom-nav a:hover {
+  background-color: rgba(93, 142, 182, 0.575);
+  border: 2px solid currentColor;
+  border-radius: 3rem;
+}
+
+/* Add a color to the active/current link */
+.bottom-nav a.active {
+  background-color: #9bebe9;
+  color: white;
+}
+
+#copyright {
+    /* background-color: #e8f7fa;; */
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+/* --Main/Home Page-- */
+
+#main {
+  background-image: url("img/topclean 1980x1080 done background.jpg");
+  background-color: #e8f7fa;
+}
+/*bottom text on main page*/
+.bottom-text {
+  position: absolute;
+  top: 460px;
+  left: 0px;
+  color: rgb(7, 9, 122);
+  text-shadow: 4px 4px 5px rgb(255, 255, 255);
+  font-size: 14px;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: bold;
+  /* border: 12px;
+  border-style: ridge;
+  border-color: #9bebe9; */
+  outline: 4px dotted rgb(7, 9, 122);
+  padding: 1em;
+}
+
+
+/* .element-pic {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+} */
+/*----Services page----*/
+#services-page {
+  display: none;
+}
+
+
+.services-text {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 5px rgb(255, 255, 255);
+  font-family: 'Permanent Marker', cursive;
+  /*font-family: sans-serif;*/
+  font-size: 25px;
+  font-weight: 400;
+  border: 12px;
+  border-style: inset;
+  border-color: #9bebe9;
+  padding: 1em;
+}
+
+/*----Contacts page----*/
+#contact-page {
+  display: none;
+}
+.contact-text {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 5px rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  border: 12px;
+  border-style: ridge;
+  border-color: #9bebe9;
+  padding: 1em;
+}
+
+/*----About Us page----*/
+#about-page {
+  display: none;
+}
+.about-text {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 5px rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  border: 12px ridge rgba(255, 255, 255, 0.3);
+  padding: 1em;
+}
+
+
+/* tablet version-----------------------------*/
+
+@media screen and (min-width: 601px) and (max-width: 1023px) {
+    body {
+      background-color: rgb(255, 0, 0);
+    }
+  
+    .bottom-text {
+      position: absolute;
+      top: 300px;
+      left: 0px;
+      color: rgb(7, 9, 122);
+      text-shadow: 4px 4px 5px rgb(255, 255, 255);
+      font-size: 9px;
+      font-family: 'Permanent Marker', cursive;
+      font-weight: bold;
+      /* border: 12px;
+      border-style: ridge;
+      border-color: #9bebe9; */
+      outline: 4px dotted rgb(7, 9, 122);
+      padding: 1em;
+    }
+  
+    .services-text {
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: rgb(0, 0, 0);
+      text-shadow: 2px 2px 5px rgb(255, 255, 255);
+      font-family: 'Permanent Marker', cursive;
+      /*font-family: sans-serif;*/
+      font-size: 15px;
+      font-weight: 400;
+    }
+  
+    .contact-text {
+      position: absolute;
+      top: 26%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: rgb(0, 0, 0);
+      text-shadow: 2px 2px 5px rgb(255, 255, 255);
+      font-family: sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+      font-style: italic;
+    }
+  
+    .about-text {
+      position: absolute;
+      top: 26%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: rgb(0, 0, 0);
+      text-shadow: 2px 2px 5px rgb(255, 255, 255);
+      font-family: sans-serif;
+      font-size: 12px;
+      font-weight: bold;
+      font-style: italic;
+    }
+  }
+
+
+  /* mobile version-------------------------------------- */
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: black;
+    }
+  
+    .bottom-text {
+      position: absolute;
+      top: 300px;
+      left: 0px;
+      color: rgb(7, 9, 122);
+      text-shadow: 4px 4px 5px rgb(255, 255, 255);
+      font-size: 9px;
+      font-family: 'Permanent Marker', cursive;
+      font-weight: bold;
+      /* border: 12px;
+      border-style: ridge;
+      border-color: #9bebe9; */
+      outline: 4px dotted rgb(7, 9, 122);
+      padding: 1em;
+    }
+  
+    .services-text {
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: rgb(0, 0, 0);
+      text-shadow: 2px 2px 5px rgb(255, 255, 255);
+      font-family: 'Permanent Marker', cursive;
+      /*font-family: sans-serif;*/
+      font-size: 15px;
+      font-weight: 400;
+    }
+  
+    .contact-text {
+      position: absolute;
+      top: 26%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: rgb(0, 0, 0);
+      text-shadow: 2px 2px 5px rgb(255, 255, 255);
+      font-family: sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+      font-style: italic;
+    }
+  
+    .about-text {
+      position: absolute;
+      top: 26%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: rgb(0, 0, 0);
+      text-shadow: 2px 2px 5px rgb(255, 255, 255);
+      font-family: sans-serif;
+      font-size: 12px;
+      font-weight: bold;
+      font-style: italic;
+    }
+  }
