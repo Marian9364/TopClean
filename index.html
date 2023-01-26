@@ -6,10 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="HandheldFriendly" content="true">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="reset.css">
-
-    <!-- <link rel="stylesheet" href="styles-mobile.css"> -->
+    <link rel="stylesheet" href="css/styles.css">
     <script src="app.js" type="module"></script>
     <title>TopClean</title>
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
@@ -22,17 +19,19 @@
 </head>
 
 <body>
-    <nav class="topnav">
-        <ul role="list">
-            <li><img id="badge" alt="Qries" src="img/favicon/android-chrome-192x192.png"width="70" height="70"></li>
-            <li><a class="buttons"  id="servicesBtnTop" href="#services"><i class="fas fa-broom"></i> Leistungen</a></li>
-            <li><a class="buttons" id="contactBtnTop" href="#contact"><i class="fas fa-book"></i> Kontakt</a></li>
-            <li><a class="buttons" id="aboutBtnTop" href="#about"><i class="fas fa-info-circle"></i> Über uns</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav class="topnav">
+            <ul role="list">
+                <li><img id="badge" alt="Qries" src="img/favicon/android-chrome-192x192.png"width="70" height="70"></li>
+                <li><a class="buttons"  id="servicesBtnTop" href="#services"><i class="fas fa-broom"></i> Leistungen</a></li>
+                <li><a class="buttons" id="contactBtnTop" href="#contact"><i class="fas fa-book"></i> Kontakt</a></li>
+                <li><a class="buttons" id="aboutBtnTop" href="#about"><i class="fas fa-info-circle"></i> Über uns</a></li>
+            </ul>
+        </nav>
+    </header>
     <main id="main">
         <div id="main-div">
-            <img class="element-pic" src="img/topclean 1980x1080 done background.jpg" alt="TopClean picture">
+            <img class="element-pic" src="img/topclean 1980x1080 done background.jpg" alt="TopClean picture" width="1000px">
             <div class="bottom-text">
                 <h1>UNSER PROFESSIONELER GEBÄUDEREINIGUNGS-SERVICE IN LEIPZIG</h1>
             </div>
@@ -98,9 +97,9 @@
                 <li><a class="buttons"  id="servicesBtnFooter" href="#services">Leistungen</a></li>
                 <li><a class="buttons" id="contactBtnFooter" href="#contact">Kontakt</a></li>
                 <li><a class="buttons" id="aboutBtnFooter" href="#about">Über uns</a></li>
-                <li id="copyright">&copy; TopClean</li>
             </ul>
         </nav>
+        <p id="copyright">&copy; TopClean</p>
 
     </footer>
 </body>

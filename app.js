@@ -6,7 +6,7 @@ if (screen.width < 960) {
 
 
 } else {
-  alert("More than 960 - desktop version");
+  //alert("More than 960 - desktop version");
   //desktop-version variables
   let servicesBtnTop = document.querySelector("#servicesBtnTop");
   let servicesBtnFooter = document.querySelector("#servicesBtnFooter");

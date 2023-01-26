@@ -1,10 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Explora&family=Permanent+Marker&display=swap');
-@import 'https://use.fontawesome.com/releases/v6.2.1/css/all.css';
-/* html,
+:root {
+    --main-bg-color: #e8f7fa;
+  }
+
+html,
 body {
-  height: 1080px;
-  width: 1980px;
-} */
+  max-width: 1000px;
+  background-color: var(--main-bg-color);
+
+}
 
 
 
@@ -12,19 +15,23 @@ body {
 /* * { border: 1px solid red; } */
 
 /* --top navigation bar-- */
-
+#header, #footer {
+    display: flex;
+    justify-content: center;
+  }
 /* Add a background color to the top navigation */
-.topnav {
-  background-color: #e8f7fa;
+.topnav, .bottom-nav {
+  /* background-color: var(--main-bg-color); */
+  max-width: 1110px;
   overflow: hidden;
   padding-left: 20px;
 
 }
 
 /* make li next to eachother in the top navigation */
-.topnav ul {
+.topnav ul, .bottom-nav ul {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-flow: row nowrap;
 }
@@ -40,10 +47,8 @@ body {
   font-size: 25px;
   font-weight: bold;
   color: rgb(255, 255, 255);
-  display: inline-block;
   padding: 5px 15px;
-  /* text-decoration: none;
-  text-shadow: 2px 2px 5px rgb(0, 0, 0); */
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
 
 }
 /* Style the link icon inside the top navigation bar */
@@ -72,7 +77,7 @@ body {
 
 /* Style the bottom navigation bar */
 .bottom-nav {
-  background-color: #e8f7fa;
+  /* background-color: #e8f7fa; */
   overflow: hidden;
 
 }
@@ -80,7 +85,7 @@ body {
 .bottom-nav ul{
   display: flex;
   flex-flow: row nowrap;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 /* Style the links inside the bottom navigation bar */
@@ -107,15 +112,16 @@ body {
 }
 
 #copyright {
-  display: inline-block;
-  padding-top: 20px;
-  padding-left: 50px;
+    /* background-color: #e8f7fa;; */
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }
 
 /* --Main/Home Page-- */
 
 #main {
-  /* background-image: url("img/TopClean.JPG"); */
+  background-image: url("img/topclean 1980x1080 done background.jpg");
   background-color: #e8f7fa;
 }
 /*bottom text on main page*/
@@ -125,7 +131,7 @@ body {
   left: 0px;
   color: rgb(7, 9, 122);
   text-shadow: 4px 4px 5px rgb(255, 255, 255);
-  font-size: 19px;
+  font-size: 14px;
   font-family: 'Permanent Marker', cursive;
   font-weight: bold;
   /* border: 12px;
@@ -203,67 +209,4 @@ body {
   font-style: italic;
   border: 12px ridge rgba(255, 255, 255, 0.3);
   padding: 1em;
-}
-
-
-/* ----------------------phone version-------------------------- */
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: black;
-  }
-
-  .bottom-text {
-    position: absolute;
-    top: 300px;
-    left: 0px;
-    color: rgb(7, 9, 122);
-    text-shadow: 4px 4px 5px rgb(255, 255, 255);
-    font-size: 9px;
-    font-family: 'Permanent Marker', cursive;
-    font-weight: bold;
-    /* border: 12px;
-    border-style: ridge;
-    border-color: #9bebe9; */
-    outline: 4px dotted rgb(7, 9, 122);
-    padding: 1em;
-  }
-
-  .services-text {
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(0, 0, 0);
-    text-shadow: 2px 2px 5px rgb(255, 255, 255);
-    font-family: 'Permanent Marker', cursive;
-    /*font-family: sans-serif;*/
-    font-size: 15px;
-    font-weight: 400;
-  }
-
-  .contact-text {
-    position: absolute;
-    top: 26%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(0, 0, 0);
-    text-shadow: 2px 2px 5px rgb(255, 255, 255);
-    font-family: sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    font-style: italic;
-  }
-
-  .about-text {
-    position: absolute;
-    top: 26%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(0, 0, 0);
-    text-shadow: 2px 2px 5px rgb(255, 255, 255);
-    font-family: sans-serif;
-    font-size: 12px;
-    font-weight: bold;
-    font-style: italic;
-  }
 }
